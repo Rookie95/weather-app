@@ -9,10 +9,13 @@
         <button (click)="getWeatherData()" class="btn btn-primary">Get Weather</button>
       </div>
       <div *ngIf="weatherData" class="mt-3">
-        <div class="result-grid">
-          <div class="temp">{{ tempInDegrees }} Deg</div>
-          <div class="vertical-line"></div>
-          <div class="city">{{ weatherData.name }}</div>
+        <div class="borders">
+          <div class="result-grid">
+
+            <div class="temp">{{ tempInDegrees }} Deg</div>
+            <div class="vertical-line"></div>
+            <div class="city">{{ weatherData.name }}</div>
+          </div>
         </div>
       </div>
       <div class="card border-primary mt-3">
