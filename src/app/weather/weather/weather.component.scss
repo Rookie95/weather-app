@@ -88,3 +88,26 @@
       }
     }
     
+
+
+.result-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 50px;
+  margin: 0 20px;
+}
+
+.city {
+  font-size: 2rem;
+  font-weight: bold;
+}
