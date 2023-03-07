@@ -53,7 +53,7 @@ export class WeatherComponent implements OnInit {
       (data) => {
         this.weatherData = data;
         console.log("data", data);
-        this.tempInDegrees = ((this.weatherData.main.temp - 273.15).toFixed(2)) + ' °C';
+        this.tempInDegrees = ((this.weatherData.main.temp - 273.15).toFixed(2));
         this.addToHistory();
 
         this.isLoading = false;
