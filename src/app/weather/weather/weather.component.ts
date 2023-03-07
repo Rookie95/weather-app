@@ -57,6 +57,7 @@ export class WeatherComponent implements OnInit {
         this.addToHistory();
 
         this.isLoading = false;
+        this.city = '';
       },
       (error) => {
         console.log(error);
